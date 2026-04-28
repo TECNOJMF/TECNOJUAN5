@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecnoJuan.web</title>
+  <link rel="stylesheet" href="style.CSS">
+  <link rel="icon" href="fotos/t de tecnojuan.jpg"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="fotos/t de tecnojuan.jpg" alt="Logotipo TecnoJuan" width="80">
+      <h1>TecnoJuan.web</h1>
+      
+    </div>
+      <p class="slogan">⚡ El código es tu superpoder.</p>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+        <li><a href="#tutorial-video"><i class="fa-solid fa-code"></i> Tutorial</a></li>
+        <li><a href="#videos-seccion"><i class="fa-solid fa-video"></i> Videos</a></li>
+        <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="overlay">
+      <h2>💻 Dale vida a tus ideas con programación</h2>
+      <p>Convierte tu creatividad en proyectos reales a través del código.</p>
+      <a href="#videos-seccion" class="btn">Comienza ahora</a>
+    </div>
+  </section>
+
+  <section id="videos-seccion" class="content-section">
+    <h2>🎥 Aprende en video</h2>
+    <div class="card">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/qHAilBtZ3nE" frameborder="0" allowfullscreen></iframe>
+    <a href="#tutorial-video" class="btn">siguiente</a>
+    </div>
+  </section>
+  <section id="articulos-destacados" class="content-section">
+  <h2>💻 Artículos Destacados de Programación</h2>
+  <div class="contenedor-tarjetas">
+
+    <div class="card-articulo">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Código en pantalla">
+      <div class="card-content">
+        <div class="categoria">PROGRAMACIÓN</div>
+        <div class="titulo">Mi primera aventura programando</div>
+        <a class="boton" href="fotos/html1.pdf" target="_blank">REALIZA</a>
+      </div>
+    </div>
+
+    <div class="card-articulo">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Código en laptop">
+      <div class="card-content">
+        <div class="categoria">PROGRAMACIÓN</div>
+        <div class="titulo">Complementa lo aprendido sobre html,css y js</div>
+        <a class="boton" href="fotos/html2.pdf" target="_blank">REALIZA</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="tutorial-video" class="content-section">
+    <h2>🎥 INTRODUCCIÓN AL CURSO</h2>
+    <div class="card">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/fT5FKTmpQYw" frameborder="0" allowfullscreen></iframe>
+      <a href="#sublimefoto" class="btn">siguiente</a> 
+    </div>
+
+    <div class="step-box" id="sublimefoto">
+      <h2>Primer paso: Necesitamos descargar un editor de código</h2>
+      <p>Necesitamos un editor como <strong>Sublime Text</strong>, <strong>VS Code</strong> o incluso el Bloc de notas.</p>
+      <figure>
+        <img src="fotos/logo de sublime.jpg" alt="Sublime Text"> </figure>
+    </div>
+<section id="instalacion" class="content-section">
+     <div  class="card">
+      <h2>🎥 INSTALACIÓN DE SUBLIME TEXT</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/LwyAwItiiPQ" frameborder="0" allowfullscreen></iframe>
+      <a href="#documentohtml" class="btn">siguiente</a>
+    </div>
+<section id="documentohtml" class="content-section"> 
+    <div class="card">
+      <h2>CREAR UN DOCUMENTO EN HTML</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/DdexgoY9qJE" frameborder="0" allowfullscreen></iframe>
+      <a href="#estructurahtml" class="btn">siguiente</a>
+    </div>
+
+    <section id="estructurahtml">
+    <div class="step-box">
+      <h2>Aprende HTML</h2>
+      <p>HTML es el lenguaje base para estructurar páginas web. Aquí aprenderás su esqueleto básico.</p>
+      <figure>
+        <img src="fotos/estructura de html.jpg" alt="Estructura HTML básica"> </figure>
+        
+      <section id="estructura">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/C5Rck_icVKQ" frameborder="0" allowfullscreen></iframe>
+
+    
+    <section id="insertarimagen" class="videos-section"> 
+  <div class="card">
+    <h2>INSERTAR IMAGENES EN HTML</h2>
+    <iframe width="100%" height="315" 
+      src="https://www.youtube.com/embed/DBm2t0lcWT4" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+    <a href="#articulos-destacados" id="sixseven" class="btn">Complementa lo aprendido :D</a>
+      
+    
+  
+
+<!-- ===================== COMENTARIOS ===================== -->
+<section id="comentarios" class="content-section">
+  <h2>💬 Comentarios</h2>
+
+  <form id="commentForm">
+    <input type="text" id="username" placeholder="Tu nombre" required>
+    <textarea id="commentText" placeholder="Escribe tu comentario..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="commentsList"></div>
+</section>
+
+<!-- ===================== FIREBASE ===================== -->
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import {
+  getFirestore,
+  addDoc,
+  collection,
+  getDocs,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAw-tDNM8jyqIjywsnFXozvOyUH6Sgkpns",
+  authDomain: "tecnojuan-93a80.firebaseapp.com",
+  projectId: "tecnojuan-93a80",
+  storageBucket: "tecnojuan-93a80.firebasestorage.app",
+  messagingSenderId: "480172161238",
+  appId: "1:480172161238:web:d07a2e22f538e2c4617177",
+  measurementId: "G-4GVHTWKTQL"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// 🔥 ENVIAR COMENTARIO
+const form = document.getElementById("commentForm");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("username").value;
+  const comment = document.getElementById("commentText").value;
+
+  try {
+    await addDoc(collection(db, "comments"), {
+      name: name,
+      comment: comment,
+      createdAt: serverTimestamp()
+    });
+
+    form.reset();
+    loadComments();
+
+  } catch (error) {
+    console.error("Error guardando comentario:", error);
+  }
+});
+
+// 🔥 CARGAR COMENTARIOS
+async function loadComments() {
+  const querySnapshot = await getDocs(collection(db, "comments"));
+  const list = document.getElementById("commentsList");
+
+  list.innerHTML = "";
+
+  querySnapshot.forEach((doc) => {
+    const data = doc.data();
+
+    list.innerHTML += `
+      <div class="comment">
+        <strong>${data.name}</strong>
+        <p>${data.comment}</p>
+      </div>
+    `;
+  });
+}
+
+loadComments();
+</script>
+
+</body>
+</html>
+</body>
+</html>
